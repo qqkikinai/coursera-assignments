@@ -1,1 +1,106 @@
-something
+/******* Base Styles *******/
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+}
+
+.row {
+	width: 100%;
+
+}
+
+#title {
+	text-align: center;
+	margin-bottom: 50px;
+	margin-top: 25px;
+	font-size: 1.75em;
+}
+
+.text {
+	position: relative;
+	top: 30px;
+	padding: 10px;
+}
+
+.content {
+	position: relative;
+	background-color: #d1d5de;
+	border: 1px solid black;
+	float: left;
+	margin: 10px 10px 10px 10px;
+	overflow: hidden;
+}
+
+
+p {
+	position: absolute;
+	color: #fff;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	width: 150px;
+	top: 0;
+	right: 0;
+	text-align: center;
+	font-size: 1.25em;
+
+}
+
+#p1 {
+	background-color: #a5694f;
+}
+
+#p2 {
+	background-color: #7d4d5d;
+}
+
+#p3 {
+	background-color: #381f1d;
+}
+
+
+/******* Desktop version (large) *******/
+@media (min-width: 992px) {
+
+	.col-lg {
+		width: 33.33%;
+		height: 150px;
+		float: left;
+	}
+
+	.content {
+		height: 170px;
+	}
+}
+
+/******* Tablet version (medium) *******/
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.col-md-1 {
+		width: 50%;
+		float: left;
+	}
+
+	.col-md-2 {
+		width: 100%;
+	}
+
+	.content {
+		height: 190px;
+	}
+}
+
+/******* Mobile version (small) *******/
+@media (max-width: 767px) {
+
+	.col-sm {
+		width: 100%;
+	}
+
+	.content {
+		height: 190px;
+	}
+
+}
