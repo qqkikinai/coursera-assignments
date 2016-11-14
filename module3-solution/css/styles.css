@@ -1,0 +1,44 @@
+body {
+	background-color: #363636;
+	color: #fff;
+}
+
+/**** HEADING ****/
+.navbar-default .navbar-nav>li>a {
+	text-align: center;
+	font-size: 1.3em;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+    background-color: #363636;
+}
+
+.page-header {
+	border-bottom: none;
+	margin-top: 80px;
+}
+
+/**** CONTENT ****/
+.tall-section {
+	background-color: #f8f8f8;
+	color: #363636;
+	height: 1000px;
+	padding: 5px 25px 0;
+	margin: 0px 30px 10px;
+	position: absolute;
+}
+
+.tall-section .text-center {
+	font-size: 1.8em;
+}
+
+.tall-section .text-justify {
+	font-size: 1.2em;
+}
+
+@media (min-width: 768px) {
+.navbar {
+    border-radius: 0;
+ 	}
+}
